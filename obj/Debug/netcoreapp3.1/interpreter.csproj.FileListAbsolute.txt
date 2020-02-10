@@ -1,0 +1,11 @@
+C:\Users\vilma.kangas\compilers\interpreter\bin\Debug\netcoreapp3.1\interpreter.exe
+C:\Users\vilma.kangas\compilers\interpreter\bin\Debug\netcoreapp3.1\interpreter.deps.json
+C:\Users\vilma.kangas\compilers\interpreter\bin\Debug\netcoreapp3.1\interpreter.runtimeconfig.json
+C:\Users\vilma.kangas\compilers\interpreter\bin\Debug\netcoreapp3.1\interpreter.runtimeconfig.dev.json
+C:\Users\vilma.kangas\compilers\interpreter\bin\Debug\netcoreapp3.1\interpreter.dll
+C:\Users\vilma.kangas\compilers\interpreter\bin\Debug\netcoreapp3.1\interpreter.pdb
+C:\Users\vilma.kangas\compilers\interpreter\obj\Debug\netcoreapp3.1\interpreter.csprojAssemblyReference.cache
+C:\Users\vilma.kangas\compilers\interpreter\obj\Debug\netcoreapp3.1\interpreter.AssemblyInfoInputs.cache
+C:\Users\vilma.kangas\compilers\interpreter\obj\Debug\netcoreapp3.1\interpreter.AssemblyInfo.cs
+C:\Users\vilma.kangas\compilers\interpreter\obj\Debug\netcoreapp3.1\interpreter.dll
+C:\Users\vilma.kangas\compilers\interpreter\obj\Debug\netcoreapp3.1\interpreter.pdb
