@@ -15,7 +15,7 @@ namespace interpreter
 
         static void ReadSourceCode(string file)
         {
-            SourceCode = System.IO.File.ReadAllLines(".\\ExamplePrograms\\" + file);
+            SourceCode = System.IO.File.ReadAllLines("./ExamplePrograms/" + file);
             // foreach (String line in SourceCode)
             // {
             //     Console.WriteLine(line);

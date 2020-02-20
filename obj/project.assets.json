@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\vilma.kangas\\.nuget\\packages\\": {}
+    "/home/vilma/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vilma.kangas\\compilers\\interpreter\\interpreter.csproj",
+      "projectUniqueName": "/home/vilma/opiskelu/compilers/interpreter/interpreter.csproj",
       "projectName": "interpreter",
-      "projectPath": "C:\\Users\\vilma.kangas\\compilers\\interpreter\\interpreter.csproj",
-      "packagesPath": "C:\\Users\\vilma.kangas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vilma.kangas\\compilers\\interpreter\\obj\\",
+      "projectPath": "/home/vilma/opiskelu/compilers/interpreter/interpreter.csproj",
+      "packagesPath": "/home/vilma/.nuget/packages/",
+      "outputPath": "/home/vilma/opiskelu/compilers/interpreter/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vilma.kangas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/vilma/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -56,7 +56,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -5,14 +5,18 @@ namespace interpreter
 {
     public class Token
     {
-        public Token(string value, int line, int col) {
+        public Token(String value, String tag) {
             Value = value;
-            Location = new Dictionary<string, int>();
-            Location.Add("line", line);
-            Location.Add("col", col);
+            Tag = tag;
         }
 
         public string Value { get; }
-        public Dictionary<string, int> Location { get; }
+        // public Dictionary<string, int> Location { get; }
+        public string Tag { get; }
+
+        public override String ToString()
+        {
+            return Tag + " (" + Value + ")";
+        }
     }
 }
