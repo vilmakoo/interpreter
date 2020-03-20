@@ -1,5 +1,40 @@
 Tree/BoolVariableNode.cs(9,22): warning CS0414: The field 'BoolVariableNode.ValueSet' is assigned but its value is never used [/home/vilma/opiskelu/compilers/interpreter/interpreter.csproj]
 Tree/IntVariableNode.cs(9,22): warning CS0414: The field 'IntVariableNode.ValueSet' is assigned but its value is never used [/home/vilma/opiskelu/compilers/interpreter/interpreter.csproj]
 Tree/StringVariableNode.cs(9,22): warning CS0414: The field 'StringVariableNode.ValueSet' is assigned but its value is never used [/home/vilma/opiskelu/compilers/interpreter/interpreter.csproj]
-;, value: ;
-;, value: ;
+|-<program>
+| \-<stmts>
+|   |-<stmt>
+|   | |-X
+|   | |-:
+|   | |-int
+|   | |-:=
+|   | \-<var_assagnmnt>
+|   |   |-4
+|   |   \-<expr>
+|   |     |-<opnd>
+|   |     | \-4
+|   |     |-+
+|   |     |-<op_opnd>
+|   |     | |-(
+|   |     | \-<opnd>>
+|   |     |   |-6
+|   |     |   \-<expr>
+|   |     |     |-<opnd>
+|   |     |     | \-6
+|   |     |     |-*
+|   |     |     |-<op_opnd>
+|   |     |     | |-2
+|   |     |     | \-<opnd>>
+|   |     |     |   \-2
+|   |     |     \-)
+|   |     \-;
+|   |-<stmt>
+|   | \-print
+|   |-<stmt>
+|   | |-X
+|   | \-<expr>
+|   |   |-<opnd>
+|   |   | \-X
+|   |   \-;
+|   \-<stmt>
+|     \-

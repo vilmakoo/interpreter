@@ -55,26 +55,26 @@ namespace interpreter
                 throw new Exception();
             }
 
-            // NewNode = new Node("<stmt>", null, Parent);
-            // Parent.AddChild(NewNode);
-            // NextToken(NewNode);
+            NewNode = new Node("<stmt>", null, Parent);
+            Parent.AddChild(NewNode);
+            NextToken(NewNode);
             // if (Lookahead.Value.Tag != "epsilon" && Lookahead.Value.Tag != "end")
-            Console.WriteLine(Lookahead.Value);
-            if (Lookahead.Value.Tag != "epsilon" && Lookahead.Next.Value.Tag != "epsilon" && Lookahead.Next.Value.Tag != "end")
-            {
-                NewNode = new Node("<stmt>", null, Parent);
-                Parent.AddChild(NewNode);
-                NextToken(NewNode);
-                Stmts(Parent);
-            }
-            else
-            {
-                NextToken(Parent);
+            // Console.WriteLine(Lookahead.Value);
+            // if (Lookahead.Value.Tag != "epsilon" && Lookahead.Next.Value.Tag != "epsilon" && Lookahead.Next.Value.Tag != "end")
+            // {
+            //     NewNode = new Node("<stmt>", null, Parent);
+            //     Parent.AddChild(NewNode);
+            //     NextToken(NewNode);
+            //     Stmts(Parent);
+            // }
+            // else
+            // {
+                // NextToken(Parent);
                 if (Lookahead.Value.Tag != "epsilon" && Lookahead.Value.Tag != "end")
                 {
                     Stmts(Parent);
                 }
-            }
+            // }
         }
 
         public void Stmt(Node Parent)
