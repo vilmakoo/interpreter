@@ -5,7 +5,8 @@ namespace interpreter
 {
     public class Token
     {
-        public Token(String value, String tag) {
+        public Token(String value, String tag)
+        {
             Value = value;
             Tag = tag;
         }
@@ -16,7 +17,7 @@ namespace interpreter
 
         public override String ToString()
         {
-            return Tag + " (" + Value + ")";
+            return Tag + ", value: " + Value;
         }
     }
 }

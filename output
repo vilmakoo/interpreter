@@ -1,0 +1,5 @@
+Tree/BoolVariableNode.cs(9,22): warning CS0414: The field 'BoolVariableNode.ValueSet' is assigned but its value is never used [/home/vilma/opiskelu/compilers/interpreter/interpreter.csproj]
+Tree/IntVariableNode.cs(9,22): warning CS0414: The field 'IntVariableNode.ValueSet' is assigned but its value is never used [/home/vilma/opiskelu/compilers/interpreter/interpreter.csproj]
+Tree/StringVariableNode.cs(9,22): warning CS0414: The field 'StringVariableNode.ValueSet' is assigned but its value is never used [/home/vilma/opiskelu/compilers/interpreter/interpreter.csproj]
+;, value: ;
+;, value: ;

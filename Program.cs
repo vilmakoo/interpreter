@@ -7,7 +7,8 @@ namespace interpreter
         static string[] SourceCode;
         static void Main(string[] args)
         {
-            ReadSourceCode(args[0]);
+            // ReadSourceCode(args[0]);
+            ReadSourceCode("ExampleProgram1");
 
             Interpreter Interpreter = new Interpreter(SourceCode);
             Interpreter.Interpret();
@@ -16,10 +17,6 @@ namespace interpreter
         static void ReadSourceCode(string file)
         {
             SourceCode = System.IO.File.ReadAllLines("./ExamplePrograms/" + file);
-            // foreach (String line in SourceCode)
-            // {
-            //     Console.WriteLine(line);
-            // }
         }
     }
 }
